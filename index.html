@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Rahul Sai Challa — Cybersecurity Engineer</title>
+<meta name="description" content="MS CS Graduate (4.0 GPA) at UNT. Network Security, IAM, Vulnerability Management, GRC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg style="position:absolute;width:0;height:0"><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/></filter></svg>
+<canvas id="net-bg"></canvas>
+
+<!-- NAV -->
+<nav>
+<div class="wrap">
+  <a href="#" class="logo">RSC</a>
+  <div class="nav-links">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a>
+    <a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </div>
+  <div class="nav-right">
+    <button class="theme-btn" id="theme-toggle" aria-label="Toggle theme"></button>
+    <a href="#contact" class="hire-btn">Hire Me</a>
+    <button class="burger" id="burger" aria-label="Menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</div>
+</nav>
+
+<!-- MOBILE OVERLAY -->
+<div class="mobile-overlay" id="mobile-nav">
+  <button class="close-btn" id="close-nav" aria-label="Close menu">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a>
+  <a href="#projects">Projects</a><a href="#contact">Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+<div class="hero-grain" style="filter:url(#grain)"></div>
+<div class="wrap">
+  <div>
+    <div class="hero-label">MS CS · UNT · Class of 2026</div>
+    <h1><span class="outline">SECURING</span><span class="filled">SYSTEMS.</span></h1>
+    <p class="hero-sub">Network Security · IAM · GRC · Python · Bash</p>
+    <div class="hero-badge"><span class="pulse-dot"></span>Available for Cybersecurity Roles · OPT Authorized</div>
+    <div class="hero-btns">
+      <a href="resume.html" class="btn-fill" target="_blank" rel="noopener noreferrer">Download Resume</a>
+      <a href="#projects" class="btn-ghost">View Projects</a>
+    </div>
+  </div>
+  <div class="hero-art">
+    <svg viewBox="0 0 400 400" fill="none">
+      <circle cx="200" cy="200" r="160" stroke="currentColor" stroke-width=".6" stroke-dasharray="6 6" opacity=".25" style="color:var(--accent)"/>
+      <circle cx="200" cy="200" r="110" stroke="currentColor" stroke-width=".8" opacity=".35" style="color:var(--accent)"/>
+      <circle cx="200" cy="200" r="60" stroke="currentColor" stroke-width="1" opacity=".5" style="color:var(--accent)"/>
+      <line x1="40" y1="200" x2="360" y2="200" stroke="currentColor" stroke-width=".4" opacity=".15" style="color:var(--accent)"/>
+      <line x1="200" y1="40" x2="200" y2="360" stroke="currentColor" stroke-width=".4" opacity=".15" style="color:var(--accent)"/>
+      <line x1="80" y1="80" x2="320" y2="320" stroke="currentColor" stroke-width=".4" opacity=".1" style="color:var(--accent)"/>
+      <line x1="320" y1="80" x2="80" y2="320" stroke="currentColor" stroke-width=".4" opacity=".1" style="color:var(--accent)"/>
+      <path d="M200 155 L230 180 L220 180 L220 215 L180 215 L180 180 L170 180 Z" fill="currentColor" opacity=".65" style="color:var(--accent)"/>
+      <circle cx="200" cy="200" r="45" stroke="currentColor" stroke-width="1.5" opacity=".5" style="color:var(--accent)"/>
+      <circle cx="200" cy="40" r="4" fill="currentColor" opacity=".4" style="color:var(--accent)"/>
+      <circle cx="360" cy="200" r="4" fill="currentColor" opacity=".4" style="color:var(--accent)"/>
+      <circle cx="200" cy="360" r="4" fill="currentColor" opacity=".4" style="color:var(--accent)"/>
+      <circle cx="40" cy="200" r="4" fill="currentColor" opacity=".4" style="color:var(--accent)"/>
+      <circle cx="320" cy="80" r="3" fill="currentColor" opacity=".3" style="color:var(--accent)"/>
+      <circle cx="320" cy="320" r="3" fill="currentColor" opacity=".3" style="color:var(--accent)"/>
+      <circle cx="80" cy="320" r="3" fill="currentColor" opacity=".3" style="color:var(--accent)"/>
+      <circle cx="80" cy="80" r="3" fill="currentColor" opacity=".3" style="color:var(--accent)"/>
+    </svg>
+  </div>
+</div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker"><div class="ticker-track">
+  <span>NETWORK SECURITY · IAM · FIREWALL CONFIG · NIDS/NIPS · CVSS SCORING · MITRE ATT&CK · NIST FRAMEWORKS · PYTHON AUTOMATION · BASH · RBAC · PAM ·&nbsp;</span>
+  <span>NETWORK SECURITY · IAM · FIREWALL CONFIG · NIDS/NIPS · CVSS SCORING · MITRE ATT&CK · NIST FRAMEWORKS · PYTHON AUTOMATION · BASH · RBAC · PAM ·&nbsp;</span>
+</div></div>
+
+<!-- ABOUT + STATS -->
+<section class="sec" id="about">
+<div class="wrap">
+  <div class="about-grid">
+    <div class="reveal">
+      <div class="label">About</div>
+      <h2 class="about-head">Who I Am.</h2>
+      <p class="about-bio">MS Computer Science graduate at the University of North Texas with a perfect 4.0 GPA. Specializing in network security, IAM, and GRC. Experienced in Python and Bash automation, vulnerability management, and cyber incident response.</p>
+      <div class="edu-list">
+        <div class="edu-item"><h4>University of North Texas</h4><p>MS Computer Science — 4.0/4.0 GPA · May 2026</p></div>
+        <div class="edu-item"><h4>Karunya Institute of Technology</h4><p>B.Tech Computer Science & Engineering · July 2024</p></div>
+      </div>
+    </div>
+    <div class="stats-bento reveal">
+      <div class="stat-tile"><div class="stat-num" data-count="4.0" data-suffix="">0</div><div class="stat-label">GPA · University of North Texas</div></div>
+      <div class="stat-tile"><div class="stat-num" data-count="70" data-suffix="%">0</div><div class="stat-label">Manual Overhead Reduced</div></div>
+      <div class="stat-tile"><div class="stat-num" data-count="60" data-suffix="%">0</div><div class="stat-label">Faster Vulnerability Triage</div></div>
+      <div class="stat-tile"><div class="stat-num" data-count="4" data-suffix="+">0</div><div class="stat-label">Years of Project Experience</div></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section class="sec-alt" id="skills">
+<div class="wrap">
+  <div class="label reveal">Expertise</div>
+  <h2 class="sec-head reveal">Core Skills</h2>
+  <div class="skills-bento">
+    <div class="sk-tile w2 reveal stagger-1"><h3>Network Security & Infrastructure</h3><div class="tags"><span class="chip">Firewalls</span><span class="chip">NIDS/NIPS</span><span class="chip">Nmap</span><span class="chip">Wireshark</span><span class="chip">TCP/IP</span><span class="chip">VPN</span><span class="chip">IPSec</span><span class="chip">SSL/TLS</span><span class="chip">ACL</span></div></div>
+    <div class="sk-tile w2 reveal stagger-2"><h3>Identity & Access Management</h3><div class="tags"><span class="chip">RBAC</span><span class="chip">PAM</span><span class="chip">IAM</span><span class="chip">SSO</span><span class="chip">PKI</span><span class="chip">Least Privilege</span><span class="chip">Endpoint Protection</span></div></div>
+    <div class="sk-tile w2 reveal stagger-3"><h3>Security Operations & GRC</h3><div class="tags"><span class="chip">SIEM</span><span class="chip">CVSS</span><span class="chip">MITRE ATT&CK</span><span class="chip">NIST</span><span class="chip">OWASP Top 10</span><span class="chip">Incident Response</span></div></div>
+    <div class="sk-tile reveal stagger-4"><h3 style="font-size:22px">Scripting & OS</h3><div class="tags"><span class="chip">Python</span><span class="chip">Bash</span><span class="chip">PowerShell</span><span class="chip">Linux</span><span class="chip">Docker</span><span class="chip">GitHub</span></div></div>
+    <div class="sk-tile reveal stagger-5" style="display:flex;flex-direction:column;justify-content:center"><div class="sk-gpa" data-count="4.0" data-suffix="">0</div><div class="sk-gpa-sub">Perfect GPA · UNT MS CS</div></div>
+    <div class="sk-tile reveal stagger-1"><h4>Cisco Python Essentials</h4><span class="badge-g">✓ Certified</span></div>
+    <div class="sk-tile reveal stagger-2"><h4>CompTIA Security+</h4><span class="badge-a">● In Progress</span></div>
+    <div class="sk-tile reveal stagger-3"><h4>CompTIA Network+</h4><span class="badge-a">● In Progress</span></div>
+    <div class="sk-tile reveal stagger-4"><h4>OPT Authorized</h4><span class="badge-g" style="display:inline-flex;align-items:center;gap:6px"><span class="pulse-dot" style="width:6px;height:6px"></span>Active</span></div>
+  </div>
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="sec" id="experience">
+<div class="wrap">
+  <div class="exp-grid">
+    <div class="exp-sticky reveal">
+      <div class="label">History</div>
+      <h2 class="exp-head">Experience</h2>
+      <p class="exp-desc">From academic research to real-world security operations and vulnerability management.</p>
+    </div>
+    <div class="timeline">
+      <div class="tl-entry reveal stagger-1"><div class="tl-dot"></div>
+        <div class="tl-date">Jan 2026 — Present</div>
+        <div class="tl-role">Instructional Assistant — NLP</div>
+        <div class="tl-co">University of North Texas</div>
+        <ul><li>Automated scripts for 30+ graduate students with full documentation</li><li>Enforced data handling and access policies in academic environment</li></ul>
+        <div class="tl-badge">Security Awareness</div>
+      </div>
+      <div class="tl-entry reveal stagger-2"><div class="tl-dot"></div>
+        <div class="tl-date">Oct 2025 — Present</div>
+        <div class="tl-role">AuroraNet — Network Security & IAM</div>
+        <div class="tl-co">Security Engineering Project</div>
+        <ul><li>Configured firewalls and NIDS/NIPS; Python/Bash automation reduced overhead 70%</li><li>Implemented RBAC, PAM, least-privilege IAM across live multi-node environment</li></ul>
+        <div class="tl-badge">↓ 70% Manual Overhead</div>
+      </div>
+      <div class="tl-entry reveal stagger-3"><div class="tl-dot"></div>
+        <div class="tl-date">Jan — May 2025</div>
+        <div class="tl-role">Security Research — Vuln & GRC</div>
+        <div class="tl-co">University of North Texas</div>
+        <ul><li>Tested 5 MITRE ATT&CK scenarios; automated CVSS vulnerability prioritization</li><li>SIEM-integrated alerting + NIST-aligned GRC report; reduced triage time 60%</li></ul>
+        <div class="tl-badge">↓ 60% Triage Time</div>
+      </div>
+      <div class="tl-entry reveal stagger-4"><div class="tl-dot"></div>
+        <div class="tl-date">May — Jun 2022</div>
+        <div class="tl-role">Web App Developer Intern</div>
+        <div class="tl-co">RINL Steel Plant, Vizag</div>
+        <ul><li>Found 3 OWASP Top 10 vulnerabilities (SQLi, XSS, IDOR); implemented all fixes</li><li>Collaborated with 3+ IT teams; improved incident response resolution by 40%</li></ul>
+        <div class="tl-badge">↓ 40% Resolution Time</div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section class="sec-alt" id="projects">
+<div class="wrap">
+  <div class="label reveal">Work</div>
+  <h2 class="sec-head reveal">Projects</h2>
+  <div class="proj-grid">
+    <div class="proj-card reveal stagger-1"><h3>AuroraNet: Network Security & IAM</h3><div class="tags"><span class="chip">Python</span><span class="chip">Bash</span><span class="chip">Firewalls</span><span class="chip">IAM</span><span class="chip">RBAC</span><span class="chip">PAM</span></div><p>Live multi-node firewall and IAM environment with automation for vulnerability detection and access control hardening.</p><div class="proj-impact">↓ 70% reduction in manual overhead</div></div>
+    <div class="proj-card reveal stagger-2"><h3>Security GRC Research</h3><div class="tags"><span class="chip">MITRE ATT&CK</span><span class="chip">CVSS</span><span class="chip">NIST</span><span class="chip">SIEM</span><span class="chip">GRC</span></div><p>Automated vulnerability scoring across 5 attack scenarios with SIEM alerting and NIST-aligned GRC compliance reporting.</p><div class="proj-impact">↓ 60% faster vulnerability triage</div></div>
+    <div class="proj-card reveal stagger-3"><h3>Cisco Networking Internship</h3><div class="tags"><span class="chip">Python</span><span class="chip">ACL</span><span class="chip">Firewalls</span><span class="chip">VPN</span><span class="chip">IPS</span><span class="chip">Segmentation</span></div><p>Configured 5+ enterprise network topologies; automated ACL validation and segmentation testing with Python.</p><div class="proj-impact">5+ enterprise topologies configured</div></div>
+    <div class="proj-card reveal stagger-4"><h3>Intel Unnati: FSM ATM Controller</h3><div class="tags"><span class="chip">GRC</span><span class="chip">Access Control</span><span class="chip">Auth Logic</span><span class="chip">Testing</span></div><p>Analyzed authentication and access control logic; implemented automated test procedures with GRC-aligned documentation.</p><div class="proj-impact">GRC-aligned remediation documented</div></div>
+    <div class="proj-card reveal stagger-5"><h3>Neural Network Optimization for Medical Imaging</h3><div class="tags"><span class="chip">Deep Learning</span><span class="chip">Python</span><span class="chip">Medical AI</span><span class="chip">IEEE</span></div><p>Research on neural network optimization for medical imaging. Published at IEEE ICPEICES 2024 international conference.</p><div class="proj-impact">IEEE Peer-Reviewed · ICPEICES 2024</div></div>
+    <div class="proj-card featured reveal stagger-6"><h3>RINL Steel Plant Web Security</h3><div class="tags"><span class="chip">Java</span><span class="chip">OWASP</span><span class="chip">SQLi</span><span class="chip">XSS</span><span class="chip">IDOR</span></div><p>Full-stack Java web app with pre-deployment security engineering. Identified and fixed critical vulnerabilities before launch.</p><div class="proj-impact">3 critical OWASP vulnerabilities patched</div></div>
+  </div>
+</div>
+</section>
+
+<!-- CREDENTIALS -->
+<section class="sec" id="creds">
+<div class="wrap">
+  <div class="label reveal">Certifications</div>
+  <h2 class="sec-head reveal">Credentials</h2>
+  <div class="cred-grid reveal">
+    <div class="cred-card"><h4>Cisco Python Essentials</h4><div class="sub">Cisco Networking Academy</div><span class="badge-g">✓ Completed</span></div>
+    <div class="cred-card"><h4>CompTIA Security+</h4><div class="sub">CompTIA</div><span class="badge-a">● In Progress</span></div>
+    <div class="cred-card"><h4>CompTIA Network+</h4><div class="sub">CompTIA</div><span class="badge-a">● In Progress</span></div>
+  </div>
+  <div class="pub-card reveal">
+    <div><h4>Neural Network Optimization for Medical Imaging</h4><p>IEEE Peer-Reviewed Publication · ICPEICES 2024 · May 2024</p></div>
+    <span class="pub-badge">Peer Reviewed</span>
+  </div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section class="sec" id="contact">
+<div class="wrap">
+  <div class="label reveal">Get in Touch</div>
+  <h2 class="contact-head reveal">Let's Talk.</h2>
+  <div class="contact-grid">
+    <form class="c-form reveal" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="d3474bbf-2036-4be0-817f-173cf828e45d">
+      <input type="hidden" name="subject" value="New Portfolio Contact — Rahul Sai Challa">
+      <input type="hidden" name="from_name" value="Portfolio Contact Form">
+      <input type="hidden" name="redirect" value="">
+      <div><label>Name</label><input type="text" name="name" placeholder="Your name" required></div>
+      <div><label>Email</label><input type="email" name="email" placeholder="your@email.com" required></div>
+      <div><label>Message</label><textarea name="message" placeholder="Tell me about the opportunity..." required></textarea></div>
+      <button type="submit" class="btn-fill" style="width:100%;justify-content:center">Send Message</button>
+    </form>
+    <div class="reveal">
+      <a href="mailto:rahulsaichalla73@gmail.com" class="c-email">rahulsaichalla73@gmail.com</a>
+      <div class="c-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Denton, Texas, USA</div>
+      <div class="c-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.11 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>940-594-1643</div>
+      <div class="c-socials">
+        <a href="https://linkedin.com/in/rahul-sai-challa-a99692336" target="_blank" rel="noopener noreferrer" class="btn-ghost" style="padding:10px 20px;font-size:13px">LinkedIn</a>
+        <a href="#" class="btn-ghost" style="padding:10px 20px;font-size:13px">GitHub</a>
+      </div>
+      <div class="hero-badge" style="margin-bottom:16px"><span class="pulse-dot"></span>Open to Work</div>
+      <div class="c-note">F-1 OPT Authorized · Immediate Start Available</div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<div class="wrap">
+  <p>&copy; 2026 Rahul Sai Challa</p>
+  <div class="foot-logo">RSC</div>
+  <div class="foot-icons">
+    <a href="https://linkedin.com/in/rahul-sai-challa-a99692336" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+    <a href="mailto:rahulsaichalla73@gmail.com" aria-label="Email"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+  </div>
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

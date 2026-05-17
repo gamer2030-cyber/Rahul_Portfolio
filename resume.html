@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Resume — Rahul Sai Challa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{font-family:'Inter',system-ui,sans-serif;font-size:10.5px;line-height:1.5;color:#111}
+body{max-width:8.5in;margin:0 auto;padding:0.5in 0.6in;background:#fff}
+a{color:#111;text-decoration:none}
+a:hover{color:#0A84FF}
+
+/* Header */
+.header{text-align:center;margin-bottom:12px;border-bottom:1.5px solid #111;padding-bottom:10px}
+.name{font-size:22px;font-weight:700;letter-spacing:0.04em;margin-bottom:2px}
+.contact{font-size:9.5px;color:#333}
+.contact a{color:#333}.contact a:hover{color:#0A84FF}
+
+/* Section */
+.section{margin-bottom:10px}
+.section-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;
+  border-bottom:1px solid #555;padding-bottom:2px;margin-bottom:6px;color:#111}
+
+/* Summary */
+.summary{font-size:10.5px;line-height:1.55;color:#222}
+
+/* Education */
+.edu-row{display:flex;justify-content:space-between;margin-bottom:2px}
+.edu-row .school{font-weight:600;font-size:10.5px}
+.edu-row .date{font-size:10px;color:#444}
+.edu-detail{font-size:10px;color:#333;margin-bottom:6px}
+
+/* Skills */
+.skill-group{margin-bottom:5px}
+.skill-cat{font-weight:600;font-size:10.5px}
+.skill-list{font-size:10px;color:#222}
+
+/* Experience */
+.exp-entry{margin-bottom:10px}
+.exp-header{display:flex;justify-content:space-between;align-items:baseline}
+.exp-role{font-weight:600;font-size:10.5px}
+.exp-date{font-size:9.5px;color:#444;white-space:nowrap}
+.exp-bullets{padding-left:14px;margin-top:3px}
+.exp-bullets li{font-size:10px;color:#222;margin-bottom:2px;line-height:1.5}
+
+/* Additional */
+.add-item{font-size:10px;color:#222;margin-bottom:3px;padding-left:14px;position:relative}
+.add-item::before{content:'•';position:absolute;left:2px;color:#111}
+
+/* Print button */
+.print-bar{position:fixed;bottom:0;left:0;right:0;background:#111;padding:12px 24px;
+  display:flex;align-items:center;justify-content:center;gap:12px;z-index:10}
+.print-bar button{padding:10px 24px;border-radius:8px;font-family:inherit;font-size:14px;
+  font-weight:600;cursor:pointer;border:none;transition:.2s}
+.print-bar .dl{background:#0A84FF;color:#fff}
+.print-bar .dl:hover{background:#006FDD}
+.print-bar .back{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.2)}
+.print-bar .back:hover{border-color:#fff}
+body{padding-bottom:80px}
+
+@media print{
+  .print-bar{display:none!important}
+  body{padding:0.4in 0.5in;padding-bottom:0.4in}
+  html{font-size:10.5px}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="name">Rahul Sai Challa</div>
+  <div class="contact">
+    Denton, TX &nbsp;|&nbsp;
+    <a href="mailto:rahulsaichalla73@gmail.com">rahulsaichalla73@gmail.com</a> &nbsp;|&nbsp;
+    940-594-1643 &nbsp;|&nbsp;
+    <a href="https://linkedin.com/in/rahul-sai-challa-a99692336" target="_blank" rel="noopener noreferrer">linkedin.com/in/rahul-sai-challa-a99692336</a>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Professional Summary</div>
+  <p class="summary">MS Computer Science graduate (4.0 GPA) with hands-on experience in AI-enabled solutions, cybersecurity, vulnerability management, and Identity & Access Management. Skilled in Python scripting, automation, and data-driven decision-making; experienced supporting cross-functional IT teams and translating operational needs into technical solutions. Brings strong analytical, communication, and project management skills with demonstrated ability to document workflows, govern AI usage responsibly, and contribute to security operations and compliance activities in enterprise environments.</p>
+</div>
+
+<div class="section">
+  <div class="section-title">Education</div>
+  <div class="edu-row"><span class="school">University of North Texas, MS in Computer Science — CGPA: 4.0/4.0</span><span class="date">May 2026</span></div>
+  <div class="edu-row" style="margin-top:4px"><span class="school">Karunya Institute of Technology and Sciences, B.Tech in Computer Science & Engineering</span><span class="date">July 2024</span></div>
+</div>
+
+<div class="section">
+  <div class="section-title">Core Skills</div>
+  <div class="skill-group"><span class="skill-cat">AI & Automation:</span> <span class="skill-list">AI-enabled tool evaluation and configuration, Python scripting and automation workflows, machine learning model development (Random Forest, XGBoost, Isolation Forest), AutoML systems (MindWare), low-code/no-code automation, data-driven reporting and analytics, responsible AI governance and data sensitivity documentation.</span></div>
+  <div class="skill-group"><span class="skill-cat">Cybersecurity:</span> <span class="skill-list">Vulnerability management (scanning, tracking, remediation), IAM, RBAC, security alert monitoring, incident response, risk assessment, compliance documentation, SIEM, OWASP Top 10, MITRE ATT&CK, NIST frameworks, firewalls, IDS/IPS.</span></div>
+  <div class="skill-group"><span class="skill-cat">Project Management & Collaboration:</span> <span class="skill-list">Cross-functional stakeholder communication, technical documentation, Agile methodologies, requirement gathering, IT policy adherence, presentation delivery to technical and non-technical audiences.</span></div>
+  <div class="skill-group"><span class="skill-cat">Programming & Tools:</span> <span class="skill-list">Python, SQL, Java, Bash, JavaScript, Streamlit, GitHub, Docker, Jupyter Notebooks, Windows, Linux.</span></div>
+</div>
+
+<div class="section">
+  <div class="section-title">Experience</div>
+
+  <div class="exp-entry">
+    <div class="exp-header"><span class="exp-role">Instructional Assistant — Natural Language Processing, University of North Texas</span><span class="exp-date">Jan 2026 – Present</span></div>
+    <ul class="exp-bullets">
+      <li>Collaborated with faculty and 30+ graduate students across infrastructure and application contexts; documented workflows, assumptions, and lesson outcomes – mirroring expectation to document AI workflows and deliver end-of-internship learning summaries.</li>
+      <li>Communicated clearly with both technical and non-technical stakeholders, demonstrating professional communication competency required for cross-functional IT and business partner collaboration.</li>
+    </ul>
+  </div>
+
+  <div class="exp-entry">
+    <div class="exp-header"><span class="exp-role">AI & Security Automation Project — AuroraNet</span><span class="exp-date">Oct 2025 – Present</span></div>
+    <ul class="exp-bullets">
+      <li>Evaluated and configured AI-enabled automation tools to improve security operations productivity; built Python and Bash automation scripts that reduced manual overhead by 70%.</li>
+      <li>Supported vulnerability management activities including scanning and remediation tracking; assisted with IAM reviews by implementing RBAC and least-privilege policies across a live multi-node environment.</li>
+      <li>Documented AI workflows, data sensitivity considerations, and governance assumptions for cross-team review – demonstrating responsible AI usage awareness in a structured, compliance-aligned environment.</li>
+    </ul>
+  </div>
+
+  <div class="exp-entry">
+    <div class="exp-header"><span class="exp-role">AI-Driven Security Research — Vulnerability Management & Risk Assessment</span><span class="exp-date">Jan 2025 – May 2025</span></div>
+    <ul class="exp-bullets">
+      <li>Applied machine learning models (Isolation Forest, XGBoost) to automate vulnerability detection and CVSS-based prioritization; produced a risk assessment and compliance report documenting security controls, remediation findings, and risk metrics.</li>
+      <li>Participated in cross-functional project discussions and translated operational security needs into data-driven automation solutions, bridging IT and business partner perspectives.</li>
+      <li>Reduced vulnerability triage time by 60% using SIEM-integrated alerting; documented all AI-assisted workflows, outcomes, and lessons learned in alignment with responsible AI governance practices.</li>
+    </ul>
+  </div>
+
+  <div class="exp-entry">
+    <div class="exp-header"><span class="exp-role">Web Application Developer Intern — RINL Steel Plant</span><span class="exp-date">May 2022 – Jun 2022</span></div>
+    <ul class="exp-bullets">
+      <li>Collaborated with 3+ cross-functional IT teams in an Agile environment to support application development and security operations; improved issue resolution time by 40%.</li>
+      <li>Identified 3 OWASP Top 10 vulnerabilities (SQLi, XSS, IDOR); documented security controls, remediation procedures, and audit findings.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Additional Projects & Certifications</div>
+  <div class="add-item"><strong>Software Development for AI — AutoML & Analytics Dashboard</strong> – Built AI-enabled reporting and analytics pipelines using MindWare AutoML and Streamlit; evaluated model outcomes and documented workflow assumptions and governance considerations. <em>Jan–May 2026</em></div>
+  <div class="add-item"><strong>Cisco Networking Internship</strong> – Configured security settings across 5+ enterprise network topologies; used Python scripting to automate ACL validation and document compliance outcomes. <em>Dec 2022–Apr 2023</em></div>
+  <div class="add-item"><strong>Peer-Reviewed Publication</strong> – Research on neural network optimization for medical imaging, ICPEICES 2024. <em>May 2024</em></div>
+  <div class="add-item"><strong>Certifications:</strong> Cisco Python Essentials (completed); pursuing CompTIA Security+ and AWS Cloud Practitioner.</div>
+</div>
+
+<div class="print-bar">
+  <button class="dl" onclick="window.print()">⬇ Save as PDF</button>
+  <a href="index.html"><button class="back">← Back to Portfolio</button></a>
+</div>
+
+</body>
+</html>
